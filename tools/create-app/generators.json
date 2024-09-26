@@ -1,0 +1,14 @@
+{
+  "generators": {
+    "frontend": {
+      "factory": "./src/generators/frontend/generator",
+      "schema": "./src/generators/frontend/schema.json",
+      "description": "frontend generator"
+    },
+    "backend": {
+      "factory": "./src/generators/backend/generator",
+      "schema": "./src/generators/backend/schema.json",
+      "description": "backend generator"
+    }
+  }
+}
