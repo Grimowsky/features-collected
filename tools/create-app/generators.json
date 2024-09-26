@@ -1,0 +1,9 @@
+{
+  "generators": {
+    "frontend-app": {
+      "factory": "./src/generators/frontend-app/generator",
+      "schema": "./src/generators/frontend-app/schema.json",
+      "description": "frontend-app generator"
+    }
+  }
+}
