@@ -2,7 +2,10 @@
   "name": "@features-collected/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "create-frontend": "nx generate @features-collected/create-app:frontend",
+    "create-backend": "nx generate @features-collected/create-app:backend"
+  },
   "private": true,
   "devDependencies": {
     "@eslint/js": "^9.8.0",
