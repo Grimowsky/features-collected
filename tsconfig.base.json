@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@features-collected/create-app": ["tools/create-app/src/index.ts"]
+      "@features-collected/create-app": ["tools/create-app/src/index.ts"],
+      "@features-collected/shared-ui": ["libs/shared-ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
