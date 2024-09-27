@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "create-frontend": "nx generate @features-collected/create-app:frontend",
-    "create-backend": "nx generate @features-collected/create-app:backend"
+    "create-backend": "nx generate @features-collected/create-app:backend",
+    "add-component": "npx shadcn@latest add %npm_config_c% -c ./libs/shared-ui/"
   },
   "private": true,
   "devDependencies": {

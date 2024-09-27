@@ -16,8 +16,8 @@
     "baseUrl": ".",
     "paths": {
       "@features-collected/create-app": ["tools/create-app/src/index.ts"],
-      "@features-collected/shared-ui/components/ui": ["libs/shared-ui/src/components/ui/index.ts"],
-      "@features-collected/shared-ui/lib": ["libs/shared-ui/src/lib/index.ts"]
+      "@shared-ui/lib/*": ["libs/shared-ui/src/lib/*"],
+      "@shared-ui/components/*": ["libs/shared-ui/src/components/*"]
     }
   },
   "exclude": ["node_modules", "tmp"]
